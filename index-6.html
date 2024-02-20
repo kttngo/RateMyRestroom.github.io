@@ -4,11 +4,11 @@
     <head>
         <!-- Meta tags for character set, description, and viewport settings -->
         <meta charset="UTF-8">
-        <meta name="description" content="Welcome to Rate UCSD Restrooms. We hope to inform you more about the restrooms around UCSD.">
+        <meta name="description" content="Welcome to Rate My Restrooms. We hope to inform you more about the restrooms around UCSD.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Title of the page -->
-        <title>Rate UCSD Restrooms</title>
+        <title>Rate My Restrooms</title>
         
         <!-- Link to external stylesheet -->
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
@@ -16,23 +16,23 @@
     <body>
         <header>
             <!-- Heading 1 for main title -->
-            <h1>Rate UCSD restrooms</h1>
+            <h1>Rate My restrooms</h1>
             
             <!-- Heading 2 for section title -->
             <h2>About Us</h2>
             
             <!-- Details section with a code snippet -->
             <details>
-                <summary><code>print("Welcome to Rate UCSD Restrooms!")</code></summary>
-                If this is your first time here, please feel free to share your opinions about UCSD restrooms!
+                <summary><code>print("Welcome to Rate My Restrooms!")</code></summary>
+                If this is your first time here, please feel free to rate and review UCSD restrooms!
             </details>
             
             <!-- Paragraph with bold and span highlighting -->
             <p>Our website empowers students to <b>share their opinions,</b> and contribute to <b>the improvement of restroom facilites</b> across UCSD.
             <!-- Image of the restroom or UCSD -->
             <figure>
-                <img src="" alt="Picture of Our Cafe" width="200">
-                <figcaption>Welcome to Rate UCSD Restrooms. We believe that every student's opinion matters.</figcaption>
+                <img src="Screen Shot 2024-02-19 at 3.53.58 PM.png" alt="Picture of UCSD Restroom" width="200">
+                <figcaption>Welcome to Rate My Restrooms. We believe that every student's opinion matters.</figcaption>
             </figure></figcaption>
             </figure>
             
@@ -41,16 +41,12 @@
             
             <!-- Aside section with information about the cafe -->
             <aside>
-                <p>Curious about our menu?</p>
+                <p>Curious about UCSD restrooms?</p>
                 <!-- Picture element for responsive images -->
                 <picture>
-                    <source srcset="menu.jpeg" type="image/jpeg" width="100">
-                    <source srcset="menu2.jpeg" type="image/jpg" width="100">
-                    <img src="menu3.jpeg" alt="Cafe Menu" width="100">
+                    <img src="https://thecleanstart.com/wp-content/uploads/2020/11/Cleaning-Facility-Restrooms-1080x630.jpg" alt="Importance of Keeping Your Facility Restrooms Clean and Hygienic" class="" width="100" height="62">
                 </picture>
                 <br>
-                <!-- Embedded iframe for quick access to a website  -->
-                <iframe src="https://wic.ucsd.edu/" title="WIC Website" width="500" height=500></iframe>
             </aside>
             
             <!-- Heading 3 for subsection title -->
@@ -58,39 +54,93 @@
             
             <!-- Unordered list with cafe contact information -->
             <ul>
-                <li>Email: <a href="mailto:info@ourcafe.com">info@ourcafe.com</a></li>
+                <li>Email: <a href="mailto:info@ratemyrestrooms.com">info@ratemyrestrooms.com</a></li>
                 <li>Phone: +1 (123) 456-7890</li>
-                <li>Visit us at: 123 Cafe Street, Cityville</li>
+                <li>Visit us at: 9500 Gilman Dr, La Jolla, CA 92093</li>
             </ul>
             
             <!-- Form section for connecting with the cafe -->
             <form>
                 <!-- Fieldset with legend for grouping form elements -->
                 <fieldset>
-                    <legend>Connect with Us!</legend>
+                    <legend>Start Rating!</legend>
                     
                     <!-- Radio buttons for selecting user type -->
-                    <label>Select your role:</label>
-                    <input type="radio" id="customer" name="role">
-                    <label for="customer">Customer</label>
-                    <input type="radio" id="supplier" name="role">
-                    <label for="supplier">Supplier</label>
+                    <label>1.Maintenance(Did the restrrom appear to be well-maintained an in good condition overall?)</label>
+                    <input type="radio" id="Excellent" name="maintenance">
+                    <label for="Excellent">Excellent</label>
+                     <input type="radio" id="Good" name="maintenance">
+                    <label for="Good">Good</label>
+                     <input type="radio" id="Average" name="maintenance">
+                    <label for="Average">Average</label>
+                     <input type="radio" id="Poor" name="maintenance">
+                    <label for="Poor">Poor</label>
+                    <input type="radio" id="Very Poor" name="maintenance">
+                    <label for="Very Poor">Very Poor</label>
                     
+                    <br>
+
+                    <label>2.Accessibility(Were the restroom facilities easily accessible for students with disabilities or mobility issues?)</label>
+                    <input type="radio" id="Excellent" name="accessibility">
+                    <label for="Excellent">Excellent</label>
+                     <input type="radio" id="Good" name="accessibility">">
+                    <label for="Good">Good</label>
+                     <input type="radio" id="Average" name="accessibility">">
+                    <label for="Average">Average</label>
+                     <input type="radio" id="Poor" name="accessibility">">
+                    <label for="Poor">Poor</label>
+                    <input type="radio" id="Very Poor" name="accessibility">">
+                    <label for="Very Poor">Very Poor</label>
+
+                    <br>
+
+                    <label>3.Amenities(Were there sufficient supplies like toilet paper, soap, and hand dryers?)</label>
+                    <input type="radio" id="Excellent" name="amenities">
+                    <label for="Excellent">Excellent</label>
+                     <input type="radio" id="Good" name="amenities">">
+                    <label for="Good">Good</label>
+                     <input type="radio" id="Average" name="amenities">">
+                    <label for="Average">Average</label>
+                     <input type="radio" id="Poor" name="amenities">">
+                    <label for="Poor">Poor</label>
+                    <input type="radio" id="Very Poor" name="amenities">">
+                    <label for="Very Poor">Very Poor</label>
+
+                    <br>
+
+                    <label>4.Cleanliness(Were the toilets, sinks, and floors clean?)</label>
+                    <input type="radio" id="Excellent" name="cleanliness">
+                    <label for="Excellent">Excellent</label>
+                     <input type="radio" id="Good" name="cleanliness">">
+                    <label for="Good">Good</label>
+                     <input type="radio" id="Average" name="cleanliness">">
+                    <label for="Average">Average</label>
+                     <input type="radio" id="Poor" name="cleanliness">">
+                    <label for="Poor">Poor</label>
+                    <input type="radio" id="Very Poor" name="cleanliness">">
+                    <label for="Very Poor">Very Poor</label>
+
                     <br>
                     
                     <!-- Dropdown for selecting favorite beverage -->
-                    <label for="beverage">Select your favorite beverage:</label>
-                    <select id="beverage">
-                        <option value="coffee">Coffee</option>
-                        <option value="tea">Tea</option>
-                        <option value="smoothie">Smoothie</option>
-                        <option value="other">Other</option>
+                    <label for="restroom">Select your restroom:</label>
+                    <select id="restroom">
+                        <option value="Peterson Hall">Peterson Hall</option>
+                        <option value="The Jeannie Hall">The Jeannie Hall</option>
+                        <option value="Solis Hall">Solis Hall</option>
+                        <option value="Price Center">Price Center</option>
+                        <option value="Design and Innovation Building">Design and Innovation Building</option>
+                        <option value="Franklin Antonio Hall">Franklin Antonio Hall</option>
+                        <option value="Jacobs Halll">Jacobs Hall</option>
+                        <option value="Pepper Canyon Hall">Pepper Canyon Hall</option>
+                        <option value="Geisel Library">Geisel Libraryl</option>
+                
                     </select>
                     
                     <br>
                     
                     <!-- Textarea for additional comments -->
-                    <label for="comments">Share your thoughts:</label>
+                    <label for="comments">Share your opinion:</label>
                     <textarea id="comments" placeholder="Your comments here..."></textarea>
                     
                     <br>
@@ -99,81 +149,10 @@
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
-            
-            <!-- Table section for showcasing cafe skills -->
-            <table>
-                <caption>Our Expertise</caption>
-                <colgroup>
-                    <col style="background-color: lightgray;">
-                    <col style="background-color: lightblue;">
-                </colgroup>
-                <tr>
-                    <th>Category</th>
-                    <th>Level</th>
-                </tr>
-                <tr>
-                    <td>Coffee Brewing</td>
-                    <td>Expert</td>
-                </tr>
-                <tr>
-                    <td>Bakery</td>
-                    <td>Intermediate</td>
-                </tr>
-                <tr>
-                    <td>Culinary Arts</td>
-                    <td>Advanced</td>
-                </tr>
-            </table>
-            
-            <!-- Code snippet using pre tag -->
-            <pre>
-                console.log("Enjoying the aroma of freshly brewed coffee!");
-            </pre>
-            
-            <!-- Audio and video elements for ambiance -->
-            <audio controls>
-                <source src="sample-audio.mp3" type="audio/mp3">
-            </audio>
-            <br>
-            <video controls>
-                <source src="sample-video.mp4" type="video/mp4">
-            </video>
-            
-            <!-- Drawing section with canvas and SVG -->
-            <div class="drawing">
-                <script>
-                    // JavaScript code for drawing on canvas
-                    window.addEventListener('load', function() {
-                        let canvas = document.getElementById('canvas');
-                        let context = canvas.getContext('2d');
-                        context.beginPath();
-                        context.moveTo(10, 50);
-                        context.lineTo(300, 200); 
-                        context.strokeStyle = 'brown';
-                        context.lineWidth = 10; 
-                        context.stroke(); 
-                        context.beginPath();
-                        context.arc(300, 150, 50, 0, Math.PI * 2, true);
-                        context.strokeStyle = 'green';
-                        context.lineWidth = 3;
-                        context.fillStyle = 'rgba(255,165,30,0.4)';
-                        context.fill();
-                        context.stroke();
-                    });
-                </script>
-                <!-- Canvas element for drawing -->
-                <canvas id="canvas" width="400" height="400" >
-                    <p>Canvas Supporting Browser Required</p> 
-                </canvas>
-                
-                <!-- SVG element for additional drawing -->
-                <svg height="100" width="100%">
-                    <circle cx="50" cy="50" r="25" fill="brown" stroke="purple" stroke-width="2"/>
-                </svg>
-            </div>
+
         </main>
         <footer>
-            <p>Made with &hearts; by WIC</p>
+            <p>Made by WIC Team7&hearts;</p>
         </footer>
     </body>
 </html>
